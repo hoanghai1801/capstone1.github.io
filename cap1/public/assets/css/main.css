@@ -62,7 +62,7 @@
     cursor: pointer;
 }
 
-.slider {
+.slider-home {
     position: relative;
     padding-top: 50%;
     background: url('/assets/img/slide1.jpg') top center / cover no-repeat;
@@ -118,7 +118,7 @@
     top: 5%;
     right: 10%;
     border-radius: 10px;
-    
+
 }
 
 .search-tour-heading {
@@ -294,7 +294,7 @@
     margin: 10px 4px;
     font-size: 1.2rem;
     font-weight: bold;
-    
+
 }
 
 .card-time-btn {

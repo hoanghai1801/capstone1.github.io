@@ -62,7 +62,7 @@
     cursor: pointer;
 }
 
-.slider {
+.slider-tour-detail {
     position: relative;
     padding-top: 30%;
     background: url('/assets/img/cau-vang.jpg') center center / cover no-repeat;
