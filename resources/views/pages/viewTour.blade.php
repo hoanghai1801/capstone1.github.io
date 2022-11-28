@@ -12,7 +12,7 @@
         <div class="container-tour-title">
             <h1 class="container-tour-heading">POPULAR TOUR</h1>
             <a href="#" class="tour-view-all-link">
-              <button class="container-tour-view-btn">View All Tours</button>
+              {{-- <button class="container-tour-view-btn">View All Tours</button> --}}
             </a>
         </div>
     </div>

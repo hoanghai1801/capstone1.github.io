@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="./assets/css/payment.css">
 <link rel="stylesheet" href="./assets/css/tour-detail.css">
 <link rel="stylesheet" href="./assets/css/view-tour.css">
+<link rel="stylesheet" href="./assets/css/chat-box.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">

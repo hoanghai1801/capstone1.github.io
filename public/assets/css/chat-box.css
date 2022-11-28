@@ -1,0 +1,134 @@
+.OBTS {
+    position: relative;
+}
+
+.chat-box {
+    position: fixed;
+    bottom: 12px;
+    right: 20px;
+}
+
+#cc-chat-icon {
+    border-radius: 1000000px;
+    line-height: 30px;
+    height: 64px;
+    width: 64px;
+    background: linear-gradient(to top, #007bff, #1988FF);
+    background: #121212 !important;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+/* Modal */
+.modal {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal-container {
+    background: #fff;
+    width: 380px;
+    height: 570px;
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn ease .5s;
+    border-radius: 1.5rem;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.modal-header {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    opacity: 0.8;
+}
+
+.modal-close:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content--scroll {
+    max-height: 437px;
+    overflow-y: scroll;
+    margin-top: 50px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.modal-footer {
+    padding: 16px;
+}
+
+.rounded {
+    border-radius: 2rem!important;
+    font-family: inherit;
+    border: 0;
+    margin-right: 4px;
+    font-size: 1.6rem;
+}
+
+.message_bot {
+    border: 1px solid #f8f9fa;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    background: #f8f9fa;
+    transition: all .1s;
+    border-radius: 1rem 1rem 1rem 0.25rem;
+    max-height: 40px;
+    height: 36px;
+    max-width: 75%;
+    width: auto;
+    line-height: 20px;
+    display: inline;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-left: 16px;
+    margin-right: auto;
+    font-size: 2rem;
+}

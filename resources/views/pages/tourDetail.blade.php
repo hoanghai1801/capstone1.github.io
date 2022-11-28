@@ -287,11 +287,7 @@
       <div class="col-md-4">
         <div class="book-tour">
           <h1 class="book-tour-heading">BOOK THIS TOUR</h1>
-          <div class="book-tour-body">
-            <i class="fa-regular fa-calendar-days calendar-btn"></i>
-            <span class="book-tour-title">When (Date)</span>
-            <i class="fa-solid fa-caret-down book-tour-down-btn"></i>
-          </div>
+          <input type="date" class="book-tour-body book-tour-title" placeholder="When (Date)">
           <div class="book-tour-tickets">
             <h1 class="book-tour-tickets-heading">Tickets</h1>
             <div class="book-tour-tickets-body">

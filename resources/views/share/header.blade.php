@@ -5,7 +5,7 @@
         </div>
         <ul class="header__navbar-list">
             <li class="header__navbar-item">
-                <a href="#" class="header__navbar-link">HOME</a>
+                <a href="/" class="header__navbar-link">HOME</a>
             </li>
             <li class="header__navbar-item">
                 <a href="#" class="header__navbar-link">ABOUT US</a>
